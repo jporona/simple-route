@@ -37,7 +37,6 @@ public class Application extends SpringBootServletInitializer {
 
 	@Bean
 	public RoutesBuilder routerBuilder() {
-		// TODO Auto-generated method stub
 		return new SimpleRoute();
 	}
 
