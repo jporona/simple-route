@@ -6,7 +6,7 @@
 	<groupId>com.jporona.poc.openshift</groupId>
 	<artifactId>simple-route</artifactId>
 	<version>1.0.0</version>
-	<packaging>jar</packaging>
+	<packaging>war</packaging>
 	<name>TEST ::: openshift-ws</name>
 	<url></url>
 	
