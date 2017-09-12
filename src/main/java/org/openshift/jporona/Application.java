@@ -1,3 +1,4 @@
+package org.openshift.jporona;
 import org.apache.camel.RoutesBuilder;
 import org.apache.camel.spring.SpringCamelContext;
 import org.springframework.boot.SpringApplication;
