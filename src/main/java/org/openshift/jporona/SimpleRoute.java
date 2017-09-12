@@ -9,8 +9,8 @@ public class SimpleRoute extends SpringRouteBuilder {
 	public void configure() throws Exception {
 		System.out.println("oka oka ");
 		from("timer://foo?fixedRate=true&period=10000")
-		.setBody().constant("ok")
-		.to("log:prueba");		
+		.setBody().constant("ok1111")
+		.to("log:jporona");		
 		
 //		from("cxfrs://http://localhost:8887?resourceClasses=EchoService")
 //		.setBody().constant("oka")
