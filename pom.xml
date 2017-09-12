@@ -27,9 +27,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<org.eclipse.jetty.version>9.2.19.v20160908</org.eclipse.jetty.version>
-
+		<cxf.version>3.1.5</cxf.version>
+		
+		<javax.servlet.version>3.1.0</javax.servlet.version>
 
 		<start-class>org.openshift.jporona.Application</start-class>
+		
+		
+		
 	</properties>
 
 
@@ -59,13 +64,13 @@
 		<dependency>
 			<groupId>org.apache.cxf</groupId>
 			<artifactId>cxf-rt-transports-http</artifactId>
-			<version>3.1.5.redhat-630187</version>
+			<version>${cxf.version}</version>
 		</dependency>
 		
 		<dependency>
 			<groupId>org.apache.cxf</groupId>
 			<artifactId>cxf-rt-transports-http-jetty</artifactId>
-			<version>3.1.5.redhat-630187</version>
+			<version>${cxf.version}</version>
 		</dependency>
 		
 		<dependency>
@@ -114,7 +119,7 @@
 		<dependency>
 			<groupId>javax.servlet</groupId>
 			<artifactId>javax.servlet-api</artifactId>
-			<version>3.1.0.redhat-1</version>
+			<version>${javax.servlet.version}</version>
 		</dependency>
 		
 		
