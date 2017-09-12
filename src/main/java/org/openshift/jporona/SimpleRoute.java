@@ -12,7 +12,7 @@ public class SimpleRoute extends SpringRouteBuilder {
 		.setBody().constant("ok1111")
 		.to("log:jporona");		
 		
-		from("cxfrs://http://localhost:8887?resourceClasses=org.openshift.jporona.EchoService")
+		from("cxfrs://http://0.0.0.0:8887?resourceClasses=org.openshift.jporona.EchoService")
 		.setBody().constant("oka jporona")
 		.convertBodyTo(String.class);
 		
